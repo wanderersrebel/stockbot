@@ -1,0 +1,36 @@
+# SECRETS — never push these
+secrets.py
+secrets.yaml
+
+# Logs
+*.log
+bot_live_test.log
+watchdog.log
+watchdog_launcher.log
+watchdog_stdout.log
+bot_run.log
+bot_stdout.log
+incident_log.txt
+nul
+
+# State/data
+state/
+*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Reports
+reports/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,4 @@
+# StockBot runs on the Python standard library only (urllib, json, time, os).
+# No third-party packages required. If you want to use yfinance instead of the
+# built-in feed, install it, but it is NOT needed:
+#   pip install yfinance
